@@ -1,0 +1,27 @@
+{
+  "name": "grpc-js-promisify",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "server": "node server/index.js & node withoutPromisify.js",
+    "withClient": "node withPromisify.js",
+    "withoutClient": "node withoutPromisify.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kivancguckiran/grpc-js-promisify.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kivancguckiran/grpc-js-promisify/issues"
+  },
+  "homepage": "https://github.com/kivancguckiran/grpc-js-promisify#readme",
+  "dependencies": {
+    "@grpc/grpc-js": "^1.4.4",
+    "grpc-tools": "^1.11.2",
+    "grpc_tools_node_protoc_ts": "^5.3.2",
+    "shelljs": "^0.8.4"
+  }
+}
