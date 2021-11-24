@@ -28,4 +28,4 @@ npm run with
 
 ### RESOLVED
 
-Function utilized `this`. So we need to use function binding with `promisifyGrpc(client.test.bind(client))`;
+Function utilizes `this`. So we need to use function binding with `promisifyGrpc(client.test.bind(client))`;
