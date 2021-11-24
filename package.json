@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "server": "node server/index.js & node withoutPromisify.js",
-    "withClient": "node withPromisify.js",
-    "withoutClient": "node withoutPromisify.js"
+    "with": "node withPromisify.js",
+    "without": "node withoutPromisify.js"
   },
   "repository": {
     "type": "git",
